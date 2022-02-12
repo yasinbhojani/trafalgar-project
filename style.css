@@ -1,0 +1,362 @@
+* {
+    font-family: "Mulish", sans-serif;
+    padding: 0;
+    margin: 0;
+}
+html, body{
+    overflow-x: hidden;
+}
+body {
+    font-weight: 700 !important;
+}
+header {
+    margin-top: 20px;
+}
+.navbar-brand {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#badge {
+    display: inline-block;
+    background-color: #458ff6;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 1.3em;
+}
+#heading {
+    display: inline-block;
+    margin-left: 10px;
+    font-size: 1.3em;
+}
+.nav-link {
+    margin-left: 22px;
+    font-size: 1.2em;
+    font-weight: 500;
+}
+.active {
+    font-weight: 700;
+}
+#dots1 {
+    top: 8rem;
+}
+.heading {
+    font-size: 3.2em;
+}
+#button {
+    border-radius: 30px;
+    padding: 1em 3em;
+    background-color: #458ff6;
+    border: none;
+    font-weight: 700;
+}
+#button:hover {
+    color: black;
+}
+
+/* our services section */
+.our-services {
+    margin-top: 192px;
+}
+.our-services .heading {
+    font-weight: 700;
+    font-size: 36px;
+}
+.line {
+    width: 56px;
+    height: 2px;
+    background-color: #000000;
+    border-radius: 5px;
+    margin: 26px auto;
+}
+.our-services .para {
+    font-size: 18px;
+    font-weight: 300;
+}
+
+/* our services cards */
+
+.bg-image {
+    margin: 75px 0;
+    background-image: url(src/shape-right.png);
+    background-repeat: no-repeat;
+}
+.services-card {
+    background-color: #fff;
+    box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.6);
+    text-align: center;
+    padding: 50px 20px !important;
+    border-radius: 20px;
+}
+.services-card h3 {
+    font-size: 24px;
+    line-height: 56px;
+    font-weight: 700;
+    margin-top: 15px;
+}
+.services-card p {
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 300;
+    margin-bottom: 0;
+}
+
+/* learn-more button */
+
+#learnmore-btn {
+    border-radius: 55px;
+    font-weight: 700;
+    font-size: 18px;
+    padding: 0.8rem 2.4rem;
+    border: 1px solid #458ff6;
+    box-sizing: border-box;
+    color: #458ff6;
+    width: 200px;
+}
+#learnmore-btn:hover {
+    background-color: #458ff6;
+    color: #fff;
+}
+
+/* leading healthcare providers */
+
+.leading-healthcare,
+.download-mobile {
+    margin-top: 220px;
+}
+.leading-download h3 {
+    font-weight: 700;
+    font-size: 2.25rem;
+}
+.leading-download p {
+    font-weight: 300;
+    font-size: 1.13rem;
+    line-height: 30px;
+}
+
+/* testimonials  */
+
+.testimonial {
+    margin-top: 260px;
+}
+.testimonial .card {
+    background: linear-gradient(208.18deg, #67c3f3 9.05%, #5a98f2 76.74%);
+    color: white;
+    /* text-align: center; */
+    border-radius: 24px;
+    border: none;
+}
+.testimonial .card > h3 {
+    margin-top: 64px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 2.25rem;
+}
+.testimonial .card .line {
+    background-color: #ffffff;
+}
+.testimonial .card .profile-statement {
+    margin-top: 45px;
+    margin-bottom: 80px;
+}
+.testimonial .card .profile img {
+    border-radius: 50%;
+    padding: 1.5px;
+    border: 5px solid #ffffff;
+    height: 133px;
+    width: 133px;
+}
+.testimonial .card .profile #name {
+    font-size: 22px;
+    line-height: 48px;
+}
+.testimonial .card .profile #comp {
+    font-size: 18px;
+    font-weight: 400;
+}
+.testimonial .card .statement p {
+    font-size: 19px;
+    font-weight: 400;
+}
+/* .testimonial .dots-3 {
+    position: absolute;
+    top: 240rem;
+    left: 10rem;
+} */
+
+/* testimonial navigation */
+.navigation {
+    margin: 43px auto;
+    text-align: center;
+}
+.navigation .circle-container .circle {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #5a98f2;
+    opacity: 0.3;
+    margin: 0 9px;
+    cursor: pointer;
+}
+.navigation .circle-container .active-circle {
+    opacity: 1;
+}
+.navigation svg {
+    height: 28px;
+    width: 28px;
+    margin: 0 90px;
+    cursor: pointer;
+    color: #458ff6;
+}
+.navigation .arw-start svg {
+    transform: rotate(90deg);
+    opacity: 0.4;
+}
+.navigation .arw-end svg {
+    transform: rotate(270deg);
+}
+
+/* latest article */
+.latest-article {
+    margin-top: 220px;
+    background: url(src/shape-left.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.latest-article .heading {
+    text-align: center;
+}
+.latest-article .heading h2 {
+    font-size: 2.25rem;
+    font-weight: 700;
+    line-height: 56px;
+}
+
+.latest-article .cards {
+    margin-top: 60px;
+    z-index: 1;
+}
+
+.latest-article .cards .card-body {
+    padding: 20px 30px 30px;
+}
+.latest-article .cards .card {
+    box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+    border-radius: 20px;
+    width: 21rem;
+    border: none;
+}
+.latest-article .cards .card img {
+    width: 100%;
+    border-radius: 20px 20px 0 0;
+}
+.latest-article .cards .card h5 {
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 32px;
+    margin-bottom: 12px;
+}
+.latest-article .cards .card p {
+    font-weight: 300;
+    font-size: 1rem;
+}
+.latest-article .cards .card a {
+    text-decoration: none;
+    color: #4089ed;
+    opacity: 0.7;
+    transition: 0.15s ease-in-out;
+}
+.latest-article .cards .card a:hover {
+    opacity: 1;
+}
+.latest-article .cards .card a svg {
+    transform: rotate(270deg);
+    margin: 0 8px;
+}
+
+.view-all {
+    margin-top: 72px;
+    margin-bottom: 200px;
+}
+
+/* .dots-4 {
+    position: absolute;
+    top: 284.5rem;
+    left: 8rem;
+    z-index: 0;
+} */
+
+/* footer */
+.page-footer {
+    background: linear-gradient(183.41deg, #67c3f3 -8.57%, #5a98f2 82.96%);
+    color: white;
+}
+#footer-container {
+    padding: 118px 50px;
+}
+.page-footer .info .navbar-brand #badge {
+    background-color: #ffffff;
+    color: #5b9bf3;
+    height: 41px;
+    width: 41px;
+}
+.page-footer .info #text,
+.page-footer .info #copy {
+    font-weight: 300;
+    font-size: 1rem;
+    margin: 30px 0 0 0;
+}
+.page-footer .other-info span {
+    display: block;
+    margin-top: 15px;
+    font-weight: 300;
+    cursor: pointer;
+    font-size: 18px;
+}
+.page-footer .other-info h5 {
+    font-weight: 700;
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+.dots-5{
+    position: absolute;
+    top: 359rem;
+    left: 0;
+}
+
+@media (max-width: 1200px){
+    .latest-article .cards .card{
+        margin-bottom: 37px;
+    }
+}
+@media (max-width: 992px) {
+    .services-card {
+        /* margin-bottom: 37px; */
+        margin: 0 10px 37px 10px;
+    }
+    .nav-link{
+        text-align: center;
+        margin-left: 0;
+    }
+    .page-footer .other-info{
+        margin-top: 4rem;
+    }
+}
+@media (min-width: 993px) {
+    .services .services-card{
+        margin-bottom: 37px;
+    }
+}
+@media (max-width: 768px){
+    #footer-container{
+        padding: 50px 25px;
+    }
+    .other-info .row div{
+        margin-bottom: 5rem;
+    }
+}
