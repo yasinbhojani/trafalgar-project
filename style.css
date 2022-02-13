@@ -3,7 +3,8 @@
     padding: 0;
     margin: 0;
 }
-html, body{
+html,
+body {
     overflow-x: hidden;
 }
 body {
@@ -147,7 +148,6 @@ header {
 .testimonial .card {
     background: linear-gradient(208.18deg, #67c3f3 9.05%, #5a98f2 76.74%);
     color: white;
-    /* text-align: center; */
     border-radius: 24px;
     border: none;
 }
@@ -183,11 +183,11 @@ header {
     font-size: 19px;
     font-weight: 400;
 }
-/* .testimonial .dots-3 {
+.testimonial .dots-3 {
     position: absolute;
     top: 240rem;
     left: 10rem;
-} */
+}
 
 /* testimonial navigation */
 .navigation {
@@ -284,13 +284,6 @@ header {
     margin-bottom: 200px;
 }
 
-/* .dots-4 {
-    position: absolute;
-    top: 284.5rem;
-    left: 8rem;
-    z-index: 0;
-} */
-
 /* footer */
 .page-footer {
     background: linear-gradient(183.41deg, #67c3f3 -8.57%, #5a98f2 82.96%);
@@ -323,14 +316,14 @@ header {
     padding-bottom: 10px;
     font-size: 20px;
 }
-.dots-5{
+.dots-5 {
     position: absolute;
     top: 359rem;
     left: 0;
 }
 
-@media (max-width: 1200px){
-    .latest-article .cards .card{
+@media (max-width: 1200px) {
+    .latest-article .cards .card {
         margin-bottom: 37px;
     }
 }
@@ -339,24 +332,32 @@ header {
         /* margin-bottom: 37px; */
         margin: 0 10px 37px 10px;
     }
-    .nav-link{
+    .nav-link {
         text-align: center;
         margin-left: 0;
     }
-    .page-footer .other-info{
+    .page-footer .other-info {
         margin-top: 4rem;
     }
 }
 @media (min-width: 993px) {
-    .services .services-card{
+    .services .services-card {
         margin-bottom: 37px;
     }
 }
-@media (max-width: 768px){
-    #footer-container{
+@media (max-width: 768px) {
+    #footer-container {
         padding: 50px 25px;
     }
-    .other-info .row div{
+    .other-info .row div {
         margin-bottom: 5rem;
+    }
+    .other-info .row div:last-child {
+        margin-bottom: 1rem;
+    }
+}
+@media (max-width: 576px) {
+    .services .services-card {
+        width: 90%;
     }
 }
